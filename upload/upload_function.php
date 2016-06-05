@@ -117,4 +117,13 @@ function genius_muup_todb($inputname="files",$maxfilesize="2097152",$orgdirector
                          }
             }	
 }
+
  ?>
+
+ <!--
+ Onchang Image
+ -->
+
+<!--
+onchange="document.getElementById('output').src = window.URL.createObjectURL(this.files[0])"
+-->
